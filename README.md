@@ -1,8 +1,8 @@
 # Análisis de ventas en centros comerciales con Python
 
-Análisis exploratorio de 99.457 transacciones comerciales realizadas en distintos centros comerciales de Estambul entre el **1 de enero de 2021 y el 8 de marzo de 2023**.
+Análisis de 99.457 transacciones registradas en centros comerciales de Estambul entre el **1 de enero de 2021 y el 8 de marzo de 2023**.
 
-El proyecto utiliza Python y Pandas para analizar la facturación, identificar las categorías con mayor peso en las ventas y estudiar la actividad comercial por establecimiento y fecha.
+Mediante Python y Pandas se estudian los ingresos por centro comercial y categoría, el volumen de ventas y la actividad comercial por fechas.
 
 ## Objetivos
 
@@ -12,8 +12,6 @@ El proyecto utiliza Python y Pandas para analizar la facturación, identificar l
 - Analizar el volumen medio de compra y las transacciones de mayor importe.
 
 ## Datos
-
-El análisis se realiza sobre un dataset de **99.457 registros**, con información de transacciones comerciales realizadas entre 2021 y 2023.
 
 Las principales variables utilizadas son:
 
@@ -45,18 +43,15 @@ El archivo utilizado procede de una actividad formativa. Como referencia para ob
 
 ### Conclusiones
 
-La categoría de ropa concentra el **34,50 % de la facturación**, seguida de cosmética (15,22 %) y alimentación y bebidas (14,92 %). Estas tres categorías representan conjuntamente el **64,64 % de los ingresos**, lo que refleja una concentración importante de las ventas en determinados segmentos.
+La ropa es la categoría con mayor peso en la facturación (34,50 %). Junto con cosmética y alimentación y bebidas, concentra el **64,64 % de los ingresos totales**.
 
-Mall of Istanbul destaca como el centro comercial con mayor facturación acumulada durante el periodo analizado.
-
-El análisis también permite identificar diferencias en la actividad semanal entre establecimientos, así como las transacciones de mayor valor.
+Mall of Istanbul registra la mayor facturación acumulada entre los centros comerciales analizados.
 
 ### Limitaciones
 
 - Los datos de 2023 comprenden únicamente una parte del año, por lo que no permiten comparar ejercicios anuales completos.
 - El dataset no incluye identificadores de productos individuales, lo que limita el análisis a nivel de categoría.
 - Cada cliente aparece asociado a una única transacción, por lo que no es posible analizar la recurrencia de compra.
-- Los indicadores de facturación, unidades vendidas y número de transacciones representan medidas diferentes y se interpretan por separado.
 
 ## Estructura del proyecto
 
